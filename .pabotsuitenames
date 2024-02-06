@@ -1,0 +1,7 @@
+datasources:336df18b423243c592742bc8d417ea5e82d3cff0
+commandlineoptions:9f8598a690c7367accf83ead504756ddd374acc9
+suitesfrom:no-suites-from-option
+file:d179c3b43af7263ad50560dbf26edacc115ef6f3
+--suite Suites.ForLooping
+--suite Suites.Inputbox
+--suite Suites.SetupAndTearDown

@@ -1,0 +1,15 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Inputbox :: Suite description                                          
+==============================================================================
+Testing Input Box                                                     This is prepaid recharge testcase
+| PASS |
+------------------------------------------------------------------------------
+Suites.Inputbox :: Suite description                                  | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Output:  C:\Users\Sayanava_Adhikari\PycharmProjects\LearningRobotFramework\pabot_results\1\output.xml

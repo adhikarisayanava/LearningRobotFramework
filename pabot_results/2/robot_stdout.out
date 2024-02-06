@@ -1,0 +1,29 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.SetupAndTearDown :: Suite description                                  
+==============================================================================
+Opening browser
+TC1 Prepaid Recharge                                                  Logging into application
+This is prepaid recharge testcase
+Logout from application
+| PASS |
+------------------------------------------------------------------------------
+TC2 Postpaid Recharge                                                 Logging into application
+This is postpaid recharge testcase
+Logout from application
+| PASS |
+------------------------------------------------------------------------------
+TC3 Sayanava CICD                                                     Logging into application
+Sayanava testing CICD pipeline
+Logout from application
+| PASS |
+------------------------------------------------------------------------------
+Closing Browser
+Suites.SetupAndTearDown :: Suite description                          | PASS |
+3 tests, 3 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+3 tests, 3 passed, 0 failed
+==============================================================================
+Output:  C:\Users\Sayanava_Adhikari\PycharmProjects\LearningRobotFramework\pabot_results\2\output.xml
