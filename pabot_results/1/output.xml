@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.10.8 on win32)" generated="20230822 18:09:35.308" rpa="false" schemaversion="4">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Inputbox" source="C:\Users\Sayanava_Adhikari\PycharmProjects\LearningRobotFramework\TestCases\Inputbox.robot">
+<test id="s1-s1-t1" name="Testing Input Box" line="11">
+<kw name="Log To Console" library="BuiltIn">
+<arg>This is prepaid recharge testcase</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230822 18:09:35.523" endtime="20230822 18:09:35.524"/>
+</kw>
+<status status="PASS" starttime="20230822 18:09:35.523" endtime="20230822 18:09:35.525"/>
+</test>
+<doc>Suite description</doc>
+<status status="PASS" starttime="20230822 18:09:35.335" endtime="20230822 18:09:35.525"/>
+</suite>
+<status status="PASS" starttime="20230822 18:09:35.316" endtime="20230822 18:09:35.526"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Inputbox">Suites.Inputbox</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

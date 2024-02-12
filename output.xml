@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Rebot 6.1.1 (Python 3.10.8 on win32)" generated="20230822 18:09:35.812" rpa="false" schemaversion="4">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="ForLooping" source="C:\Users\Sayanava_Adhikari\PycharmProjects\LearningRobotFramework\TestCases\ForLooping.robot">
+<test id="s1-s1-t1" name="ForLoopTestingwithList" line="16">
+<kw name="Create List" library="BuiltIn">
+<var>@{items}</var>
+<arg>1</arg>
+<arg>2</arg>
+<arg>3</arg>
+<arg>4</arg>
+<arg>5</arg>
+<doc>Returns a list containing given items.</doc>
+<msg timestamp="20230822 18:09:35.514" level="INFO">@{items} = [ 1 | 2 | 3 | 4 | 5 ]</msg>
+<status status="PASS" starttime="20230822 18:09:35.513" endtime="20230822 18:09:35.514"/>
+</kw>
+<for flavor="IN">
+<var>${i}</var>
+<value>@{items}</value>
+<iter>
+<var name="${i}">1</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${i}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230822 18:09:35.514" endtime="20230822 18:09:35.515"/>
+</kw>
+<kw name="Exit For Loop If" library="BuiltIn">
+<arg>${i}==3</arg>
+<doc>Stops executing the enclosing FOR loop if the ``condition`` is true.</doc>
+<status status="PASS" starttime="20230822 18:09:35.515" endtime="20230822 18:09:35.516"/>
+</kw>
+<status status="PASS" starttime="20230822 18:09:35.514" endtime="20230822 18:09:35.517"/>
+</iter>
+<iter>
+<var name="${i}">2</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${i}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230822 18:09:35.517" endtime="20230822 18:09:35.517"/>
+</kw>
+<kw name="Exit For Loop If" library="BuiltIn">
+<arg>${i}==3</arg>
+<doc>Stops executing the enclosing FOR loop if the ``condition`` is true.</doc>
+<status status="PASS" starttime="20230822 18:09:35.518" endtime="20230822 18:09:35.518"/>
+</kw>
+<status status="PASS" starttime="20230822 18:09:35.517" endtime="20230822 18:09:35.518"/>
+</iter>
+<iter>
+<var name="${i}">3</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${i}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230822 18:09:35.519" endtime="20230822 18:09:35.519"/>
+</kw>
+<kw name="Exit For Loop If" library="BuiltIn">
+<arg>${i}==3</arg>
+<doc>Stops executing the enclosing FOR loop if the ``condition`` is true.</doc>
+<msg timestamp="20230822 18:09:35.520" level="INFO">Exiting for loop altogether.</msg>
+<status status="PASS" starttime="20230822 18:09:35.519" endtime="20230822 18:09:35.520"/>
+</kw>
+<status status="PASS" starttime="20230822 18:09:35.518" endtime="20230822 18:09:35.520"/>
+</iter>
+<status status="PASS" starttime="20230822 18:09:35.514" endtime="20230822 18:09:35.520"/>
+</for>
+<status status="PASS" starttime="20230822 18:09:35.513" endtime="20230822 18:09:35.521"/>
+</test>
+<doc>Suite description</doc>
+<status status="PASS" starttime="20230822 18:09:35.340" endtime="20230822 18:09:35.521"/>
+</suite>
+<suite id="s1-s2" name="Inputbox" source="C:\Users\Sayanava_Adhikari\PycharmProjects\LearningRobotFramework\TestCases\Inputbox.robot">
+<test id="s1-s2-t1" name="Testing Input Box" line="11">
+<kw name="Log To Console" library="BuiltIn">
+<arg>This is prepaid recharge testcase</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230822 18:09:35.523" endtime="20230822 18:09:35.524"/>
+</kw>
+<status status="PASS" starttime="20230822 18:09:35.523" endtime="20230822 18:09:35.525"/>
+</test>
+<doc>Suite description</doc>
+<status status="PASS" starttime="20230822 18:09:35.335" endtime="20230822 18:09:35.525"/>
+</suite>
+<suite id="s1-s3" name="SetupAndTearDown" source="C:\Users\Sayanava_Adhikari\PycharmProjects\LearningRobotFramework\TestCases\SetupAndTearDown.robot">
+<kw name="Log To Console" library="BuiltIn" type="SETUP">
+<arg>Opening browser</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230822 18:09:35.522" endtime="20230822 18:09:35.523"/>
+</kw>
+<test id="s1-s3-t1" name="TC1 Prepaid Recharge" line="11">
+<kw name="Log To Console" library="BuiltIn" type="SETUP">
+<arg>Logging into application</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230822 18:09:35.524" endtime="20230822 18:09:35.524"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>This is prepaid recharge testcase</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230822 18:09:35.525" endtime="20230822 18:09:35.525"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn" type="TEARDOWN">
+<arg>Logout from application</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230822 18:09:35.525" endtime="20230822 18:09:35.525"/>
+</kw>
+<tag>Sayanava</tag>
+<status status="PASS" starttime="20230822 18:09:35.523" endtime="20230822 18:09:35.525"/>
+</test>
+<test id="s1-s3-t2" name="TC2 Postpaid Recharge" line="15">
+<kw name="Log To Console" library="BuiltIn" type="SETUP">
+<arg>Logging into application</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230822 18:09:35.526" endtime="20230822 18:09:35.527"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>This is postpaid recharge testcase</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230822 18:09:35.527" endtime="20230822 18:09:35.527"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn" type="TEARDOWN">
+<arg>Logout from application</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230822 18:09:35.527" endtime="20230822 18:09:35.528"/>
+</kw>
+<tag>Adhikari</tag>
+<status status="PASS" starttime="20230822 18:09:35.526" endtime="20230822 18:09:35.528"/>
+</test>
+<test id="s1-s3-t3" name="TC3 Sayanava CICD" line="19">
+<kw name="Log To Console" library="BuiltIn" type="SETUP">
+<arg>Logging into application</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230822 18:09:35.529" endtime="20230822 18:09:35.530"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Sayanava testing CICD pipeline</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230822 18:09:35.530" endtime="20230822 18:09:35.530"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn" type="TEARDOWN">
+<arg>Logout from application</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230822 18:09:35.530" endtime="20230822 18:09:35.531"/>
+</kw>
+<tag>Adhikari</tag>
+<status status="PASS" starttime="20230822 18:09:35.529" endtime="20230822 18:09:35.531"/>
+</test>
+<kw name="Log To Console" library="BuiltIn" type="TEARDOWN">
+<arg>Closing Browser</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230822 18:09:35.532" endtime="20230822 18:09:35.532"/>
+</kw>
+<doc>Suite description</doc>
+<status status="PASS" starttime="20230822 18:09:35.343" endtime="20230822 18:09:35.532"/>
+</suite>
+<doc>[https://pabot.org/?ref=log|Pabot] result from 3 executions.</doc>
+<status status="PASS" starttime="20230822 18:09:35.316" endtime="20230822 18:09:35.533"/>
+</suite>
+<statistics>
+<total>
+<stat pass="5" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="2" fail="0" skip="0">Adhikari</stat>
+<stat pass="1" fail="0" skip="0">Sayanava</stat>
+</tag>
+<suite>
+<stat pass="5" fail="0" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="ForLooping">Suites.ForLooping</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s2" name="Inputbox">Suites.Inputbox</stat>
+<stat pass="3" fail="0" skip="0" id="s1-s3" name="SetupAndTearDown">Suites.SetupAndTearDown</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
